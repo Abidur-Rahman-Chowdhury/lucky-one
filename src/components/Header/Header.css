@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+
+    text-align: center;
+    margin-top: 35px;
+    letter-spacing: 10px;
+
+}
+.header h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: purple;
+}
