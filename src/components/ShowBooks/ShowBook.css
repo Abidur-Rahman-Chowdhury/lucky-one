@@ -18,9 +18,7 @@
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    margin: 0 auto;
-   
-    
+    margin: 0 auto;    
 
 }
 .img-container img {
@@ -49,6 +47,12 @@
     color: white;
     font-weight: bold;
     border-radius: 15px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+.add-cart-btn p{
+    margin-right: 5px;
+} 
