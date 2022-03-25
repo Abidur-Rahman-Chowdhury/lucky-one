@@ -1,0 +1,57 @@
+[
+    {
+       "id" : 1,
+       "name" : "Arduino Programming",
+       "price" : 230,
+       "img" : "../src/image/arduino programming.jpg"
+    },
+    {
+       "id" : 2,
+       "name" : "Brain games python",
+       "price" : 250,
+       "img" : "../src/image/brain games python.jfif"
+    },
+    {
+       "id" : 3,
+       "name" : "Coders at Work",
+       "price" : 130,
+       "img" : "../src/image/arduino programming.jpg"
+    },
+    {
+       "id" : 4,
+       "name" : "Competitive Programing in Python",
+       "price" : 180,
+       "img" : "../src/image/competitive programing in python.png"
+    },
+    {
+       "id" : 5,
+       "name" : "Cracking The Coding Interview",
+       "price" : 330,
+       "img" : "../src/image/cracking the coding interview.jfif"
+    },
+    {
+       "id" : 6,
+       "name" : "Java Nio Programming Cookbook",
+       "price" : 80,
+       "img" : "../src/image/java nio programming cookbook.png"
+    },
+    {
+       "id" : 7,
+       "name" : "learn C++ Quickly",
+       "price" : 260,
+       "img" : "../src/image/learn c++ quickly.jpg"
+    },
+    {
+       "id" : 8,
+       "name" : "learn to Code with C",
+       "price" : 320,
+       "img" : "../src/image/learn to code with C.png"
+    },
+    {
+       "id" : 9,
+       "name" : "Web Coding & Development",
+       "price" : 230,
+       "img" : "../src/image/arduino programming.jpg"
+    }
+
+]
