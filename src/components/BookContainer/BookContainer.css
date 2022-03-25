@@ -1,0 +1,13 @@
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+.book-container {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+.show-book{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
