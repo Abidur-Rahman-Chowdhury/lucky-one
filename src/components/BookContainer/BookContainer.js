@@ -14,12 +14,31 @@ const BookContainer = () => {
 
   const addToCart = (book) => {
     
-    const newCart = [...carts, book]; 
+    
+    if (carts.length <= 3) {
+      const newCart = [...carts, book];
+      
     setCart(newCart);
+    } 
+
   }
   const chooseAgain = () => {
     const newCart = [];
     setCart(newCart)
+  }
+  const chooseOne = (cart) => {
+    let random = Math.floor(Math.random() * (4 - 1 + 1) + 1);
+    console.log(random);
+    const newCart = [cart];
+    console.log(newCart);
+    let uniqueCart = [...newCart];
+    // console.log(uniqueCart[0].carts);
+    let chooseCart = uniqueCart[0].carts.splice(random-2, 1);
+    // console.log(chooseCart);
+    
+    setCart(chooseCart);
+    
+    
   }
   return (
     <div className="container">
@@ -29,11 +48,14 @@ const BookContainer = () => {
                      books.map(book => <ShowBook book={book} key = {book.id} addToCart= {addToCart}></ShowBook>)
                   }
         </div>
+        
         <div className='show-selected'>
           <h2>Selected books</h2>
           {
             carts.map(cart => <ShowCart cart ={cart} key ={cart.id} ></ShowCart> )
           }
+          
+          <button className='choose-one' onClick={() =>chooseOne({carts})}>Choose 1 For me</button>
           <button className='choose-again' onClick={() => chooseAgain()}>Choose Again</button>
         </div>
         

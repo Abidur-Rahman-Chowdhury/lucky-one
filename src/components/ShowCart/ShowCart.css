@@ -23,3 +23,14 @@
     justify-content: center;
     align-items: center;
 }
+.choose-one {
+    padding: 10px;
+    font-size: 17px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
